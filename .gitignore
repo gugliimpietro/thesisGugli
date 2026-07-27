@@ -1,0 +1,13 @@
+# File sementara & sistem
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File kunci OneDrive (biarkan file asli saja yang di-track)
+*.lock
+
+# Data mentah besar (opsional — buka komentar bila ingin dikecualikan dari repo)
+# *.dta
+# *.csv
