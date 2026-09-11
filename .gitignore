@@ -11,3 +11,7 @@ desktop.ini
 # Data mentah besar (opsional — buka komentar bila ingin dikecualikan dari repo)
 # *.dta
 # *.csv
+
+# Output otomatis (bisa diregenerasi dari skrip)
+output/
+__pycache__/
