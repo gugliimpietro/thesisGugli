@@ -1,0 +1,38 @@
+total pengeluaran dibagi 2:
+1. total upah tenaga kerja produksi
+2. total upah tenaga kerja non produksi
+
+cari argumen mengapa di tahun 2012, bukan kenaikan upah tapi apakah perbedaan upah antar 
+sektor bisa menjadi perbedaan nilai ekspor yang berbeda / dampak perbedaan upah di subsektor
+
+kebijakan tarif antar sektor industri manufaktur, contoh :
+1. industri2 yang ada kebijakan ekspornya contoh: pajak ekspor dan kuota ekspor
+   buat dummy sebagai variabelnya
+
+karakteristik isic :
+1. nilai produksi tinggi atau tidak tinggi
+2. rasio produksi dalam negeri dibandingkan total, pasar domestik atau bukan
+3. size : jumlah tenaga kerja dalam industri tersebut
+4. buat penggolongan industri: kapital intensif, labor intensif, 
+
+buat regeresi dengan variabel utama terlebih dahulu
+
+buat statistik deskriptif : cerita mengenai ekspor indonesia, pola seperti apa, sektor mana 
+menjadi eksportir paling banyak, pangsa pasar ekspor seberapa besar total pangsa pasar, tingkat
+upah mana yang rata2nya besar dari peoduksi dan non produksi, komoditas apa yang mempunyai 
+harga relatif lebih tinggi dibandingkan komoditas lainnya
+
+Analisa deskriptif, coba lihat: 
+1. perbedaan harga ekspor antar industri
+2. perbedaan masing-masing varibel dibuat grafikna saha
+
+
+ringkasan dari jurnal Does Indutry affiliation influence wages by:AASHISH MEHTA and WEI SUN*
+
+paragraf 1: ada kebiasaan dalam struktur upah antar industri, yaitu oerbedaan upah yang signifikan
+anat industri . beberapa temuannya dari penelitian terdahulu yaitu: industri dengan upah
+yang besar berkorelasi secara positif terhadap : tingkat produktifitas, tingkat pendidikan 
+tenaga kerja, lamanya waktu bekerja dalam seminggu, rasio non upa terhadap upah, ukuran 
+rata2 perusahaan concntration ratio dan tingkat keuntungan. penemuan umumnya adalah upah yang 
+dibayarkan dalam industri manufaktur dan publik cenderung lebih besar daripada indstri 
+agriculutre
