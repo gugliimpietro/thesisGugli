@@ -1,17 +1,25 @@
-# File sementara & sistem
+# File sementara Office & sistem
 ~$*
 *.tmp
+*.bak
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# File kunci OneDrive (biarkan file asli saja yang di-track)
+# File kunci
 *.lock
-
-# Data mentah besar (opsional — buka komentar bila ingin dikecualikan dari repo)
-# *.dta
-# *.csv
 
 # Output otomatis (bisa diregenerasi dari skrip)
 output/
 __pycache__/
+*.pyc
+
+# Data mentah besar — JANGAN masuk repo (ada di folder "bahan tesis")
+*.mdb
+*.accdb
+*.sd2
+*.sas7bdat
+*.zip
+*.rar
+
+# CSV hasil olahan TETAP di-track (ukurannya kecil dan penting untuk reproduksi)

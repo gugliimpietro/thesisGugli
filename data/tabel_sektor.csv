@@ -1,0 +1,5 @@
+sektor,n_kbli,n_perusahaan,tk_produksi,tk_lainnya,tk_total,upah_produksi_trilyun,upah_lainnya_trilyun,nilai_tambah_trilyun,ULC_agregat,ULC_median,upah_pekerja_produksi_juta,upah_pekerja_lainnya_juta,rasio_keterampilan,produktivitas_juta
+Resource Intensive,123,9088,1317836,319302,1738858,37.74,12.11,439.33,0.1135,0.1966,28.64,37.92,1.324,252.65
+Labor Intensive,127,10044,1882245,299810,2212732,44.62,12.59,302.21,0.1895,0.2746,23.71,41.98,1.771,136.58
+Capital Intensive,137,4375,730102,162521,929575,32.09,9.84,401.65,0.1046,0.1961,43.95,60.54,1.378,432.08
+TOTAL (tanpa divisi 33),387,23507,3930183,781633,4881165,114.45,34.53,1143.19,0.1304,0.2245,29.12,44.18,1.517,234.2

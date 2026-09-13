@@ -1,0 +1,25 @@
+divisi,nama,sektor,n_kbli,n_perusahaan,tk_produksi,tk_lainnya,tk_total,upah_produksi_trilyun,upah_lainnya_trilyun,nilai_tambah_trilyun,ULC_agregat,ULC_median,upah_pekerja_produksi_juta,upah_pekerja_lainnya_juta,rasio_keterampilan,produktivitas_juta
+10,Makanan,Resource Intensive,81,5662,589494,192632,882425,17.35,6.73,221.58,0.1087,0.1982,29.43,34.94,1.187,251.1
+11,Minuman,Resource Intensive,6,345,34264,12200,46497,0.8,0.46,10.39,0.1211,0.1533,23.31,37.69,1.617,223.55
+12,Pengolahan tembakau,Resource Intensive,5,945,292812,30749,324614,5.7,1.26,91.95,0.0757,0.2601,19.47,40.95,2.103,283.25
+13,Tekstil,Labor Intensive,27,2246,426677,54364,482100,8.52,1.66,47.82,0.2128,0.3144,19.96,30.5,1.528,99.2
+14,Pakaian jadi,Labor Intensive,9,2248,545078,53758,600089,10.11,2.01,44.0,0.2755,0.3122,18.54,37.46,2.02,73.32
+15,"Kulit, barang kulit dan alas kaki",Labor Intensive,10,684,229629,26678,256500,5.92,0.82,26.02,0.2589,0.2507,25.76,30.81,1.196,101.46
+16,Kayu dan barang dari kayu,Labor Intensive,17,1112,199204,25540,225456,4.39,0.85,19.98,0.2626,0.4064,22.05,33.44,1.517,88.61
+17,Kertas dan barang dari kertas,Resource Intensive,9,463,103544,21721,125333,3.1,0.89,54.36,0.0733,0.0993,29.9,40.96,1.37,433.71
+18,Percetakan dan reproduksi media,Labor Intensive,4,529,18790,12015,52147,0.97,0.47,6.89,0.2089,0.2158,51.62,39.13,0.758,132.2
+19,Batubara dan pengilangan migas,Resource Intensive,7,70,4480,1883,6365,0.12,0.04,1.69,0.0969,0.0796,26.86,23.14,0.862,265.85
+20,Bahan kimia dan barang kimia,Labor Intensive,32,911,120028,62708,184846,5.89,3.43,126.31,0.074,0.1033,49.07,54.76,1.116,683.32
+21,Farmasi dan obat tradisional,Labor Intensive,4,246,37360,25638,63529,1.8,1.73,13.78,0.256,0.2873,48.2,67.38,1.398,216.92
+22,Karet dan plastik,Resource Intensive,15,1603,293242,60117,353624,10.67,2.73,59.35,0.2257,0.2563,36.39,45.33,1.246,167.85
+23,Galian bukan logam,Capital Intensive,32,1624,150368,35374,192466,6.27,2.05,45.36,0.184,0.356,41.67,57.92,1.39,235.66
+24,Logam dasar,Capital Intensive,10,274,47566,12852,60430,3.12,0.89,38.82,0.1032,0.0963,65.51,69.24,1.057,642.4
+25,"Barang logam, bukan mesin",Capital Intensive,22,938,125770,27271,159440,3.75,1.41,41.46,0.1244,0.1764,29.82,51.67,1.732,260.05
+26,"Komputer, elektronik dan optik",Capital Intensive,17,308,114309,25152,152345,3.36,1.06,27.42,0.161,0.2188,29.37,42.03,1.431,179.99
+27,Peralatan listrik,Capital Intensive,17,306,93128,20217,114811,7.12,2.2,48.98,0.1904,0.0875,76.5,108.75,1.421,426.59
+28,Mesin dan perlengkapan ytdl,Capital Intensive,27,341,36828,10643,56883,1.45,0.51,19.61,0.1018,0.2275,39.24,47.55,1.212,344.66
+29,Kendaraan bermotor,Capital Intensive,3,307,98320,20300,118643,5.26,1.34,126.24,0.0522,0.053,53.45,65.96,1.234,1064.02
+30,Alat angkutan lainnya,Capital Intensive,9,277,63813,10712,74557,1.77,0.39,53.77,0.0402,0.1066,27.74,36.43,1.313,721.23
+31,Furnitur,Labor Intensive,5,1419,161319,25520,190127,3.97,1.08,8.42,0.599,0.3219,24.61,42.18,1.714,44.3
+32,Pengolahan lainnya,Labor Intensive,19,649,144160,13589,157938,3.06,0.53,8.98,0.4033,0.3651,21.24,38.98,1.835,56.83
+33,Jasa reparasi dan pemasangan mesin,DIKELUARKAN,11,85,15429,1406,16838,0.74,0.04,2.34,0.3353,0.5027,48.08,31.17,0.648,139.16
