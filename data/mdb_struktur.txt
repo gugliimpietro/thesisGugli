@@ -1,0 +1,12 @@
+﻿STRUKTUR ImporIndonesia.mdb
+Dibaca: 2026-09-17 02:34
+
+Jumlah tabel: 2
+
+=== Impor (Berat) KG  (? baris) ===
+  (gagal membaca kolom: Unrecognized database format 'E:\onedrive\pindahan dari onedrive lama\Seksi Pengembangan Kurikulum Silabus\satrio nitip\e. 2026\10. thesis gugli\data\ImporIndonesia.mdb'.)
+
+=== Impor (Nilai) US$  (4568959 baris) ===
+kolom: hs07 | desk | NEG | URAIAN | TAHUN | SumOfCIFHSUSD
+contoh: 0101100000 | Live horses,asses,mules and hinnies, pure-bred breeding animals | 122 | SINGAPURA | 200404 | 353
+

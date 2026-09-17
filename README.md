@@ -56,12 +56,16 @@ HS → ISIC Rev.4.
 | `09_BAB_III_REVISI.md` | **Naskah BAB III revisi**, siap disisipkan; + tambahan BAB II dan daftar pustaka |
 | `10_HASIL_CEK_DATA_2012.md` | Hasil ekstraksi publikasi BPS 2012 |
 | `11_ULC_DAN_DESKRIPTIF_2012.md` | **ULC per sektor dan per divisi** + klasifikasi sektor Rev.4 |
+| `14_PM_DARI_BEA_CUKAI.md` | **Pm dari Bea Cukai 2012** — metode, hasil, beda dengan Buku Bahan Baku |
 
 ### Data
 
 | Berkas | Isi |
 |---|---|
 | `data/SI2012_KBLI5.csv` | 398 industri KBLI 5 digit — tenaga kerja, upah, nilai tambah, ULC, sektor |
+| `data/SI2012_KBLI5_with_prices.csv` | **Master kerja** — SI2012 + `lnPm` Bea Cukai + `lnPd` + `lnULC` |
+| `data/Pm_2012_KBLI5_beacukai.csv` | Harga impor unit value, 377 KBLI |
+| `data/ImporNilai2012.csv` / `Imporberat2012.csv` | Ekspor 2012 dari `ImporIndonesia.mdb` |
 | `data/tabel_sektor.csv` | Agregat per sektor — siap menjadi Tabel 4.1 BAB IV |
 | `data/tabel_divisi.csv` | Agregat per divisi, 24 baris |
 
@@ -75,6 +79,7 @@ Seluruh nilai rupiah dalam **ribuan rupiah** (satuan publikasi BPS), kecuali kol
 | `scripts/extract_si2012.py` | Ekstraksi publikasi BPS 2012 dari PDF; menjalankan 3 uji identitas akuntansi |
 | `scripts/klasifikasi_sektor.py` | Pemetaan divisi Rev.4 → sektor; agregasi ULC |
 | `scripts/00_inspeksi_data.py` | Inspeksi berkas data apa pun yang masuk folder |
+| `scripts/build_pm_from_customs.py` | HS-10 → ISIC Rev.4 → `Pm` / `lnPm` dari Bea Cukai 2012 |
 
 **Aturan kerja:** seluruh tabel hasil di-*generate* dari skrip, tidak pernah diketik manual.
 Inilah cara Tabel 4.2 di rev4b rusak — gabungan dari tiga regresi berbeda.
@@ -119,13 +124,14 @@ gagal menangkap apa pun.
 
 | # | Pekerjaan | Kebutuhan |
 |---|---|---|
-| 1 | Unduh data ekspor Comtrade 2012, konkordansi HS → ISIC Rev.4 | akses Comtrade |
-| 2 | Bangun `Pm` (harga bahan baku impor) dari `ImporIndonesia.mdb` | berkas ada di folder `bahan tesis` |
-| 3 | Gabungkan data industri dan ekspor pada KBLI 5 digit | setelah 1 |
+| 1 | Unduh data **ekspor** Comtrade 2012, konkordansi HS → ISIC Rev.4 | akses Comtrade — **ini penghambat regresi** |
+| 2 | `Pm` proksi dari Bea Cukai | **selesai** (377 KBLI). Bukan harga bahan baku pabrik — lihat `14_` |
+| 3 | Gabungkan industri dan ekspor pada KBLI 5 digit | setelah 1 |
 | 4 | Estimasi enam spesifikasi (OLS → ULC → interaksi → 2SLS) | setelah 1–3 |
 | 5 | Sisipkan BAB III revisi ke naskah, buat versi `4d.docx` | siap |
 | 6 | Tulis ulang BAB IV–V | setelah 4 |
-| 7 | Instrumen upah minimum provinsi (perlu Sakernas untuk bobot provinsi) | opsional, memperkuat |
+| 7 | Instrumen upah minimum provinsi (perlu Sakernas untuk bobot provinsi) | opsional |
+| 8 | Bahan Baku Bagian B + Produksi Bagian A | menyempurnakan `Pm` input dan `Pd` |
 
 ---
 
