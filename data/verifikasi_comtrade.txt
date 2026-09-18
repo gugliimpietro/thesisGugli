@@ -1,0 +1,74 @@
+==================================================================
+UNDUH DATA PERDAGANGAN INDONESIA 2012 — UN COMTRADE (tanpa API key)
+==================================================================
+
+[1/4] Daftar kode HS 6-digit
+  5206 kode HS6, 1225 pos 4-digit
+
+[2/4] Panen arus X
+    X   200/5206  terkumpul 95
+    X   400/5206  terkumpul 254
+    X   600/5206  terkumpul 404
+    X   800/5206  terkumpul 566
+    X  1000/5206  terkumpul 705
+    X  1200/5206  terkumpul 834
+    X  1400/5206  terkumpul 965
+    X  1600/5206  terkumpul 1092
+    X  1800/5206  terkumpul 1273
+    X  2000/5206  terkumpul 1458
+    X  2200/5206  terkumpul 1621
+    X  2400/5206  terkumpul 1787
+    X  2600/5206  terkumpul 1961
+    X  2800/5206  terkumpul 2139
+    X  3000/5206  terkumpul 2330
+    X  3200/5206  terkumpul 2528
+    X  3400/5206  terkumpul 2696
+    X  3600/5206  terkumpul 2873
+    X  3800/5206  terkumpul 3059
+    X  4000/5206  terkumpul 3226
+    X  4200/5206  terkumpul 3414
+    X  4400/5206  terkumpul 3603
+    X  4600/5206  terkumpul 3799
+    X  4800/5206  terkumpul 3985
+    X  5000/5206  terkumpul 4172
+    X  5200/5206  terkumpul 4343
+    X  5206/5206  terkumpul 4348
+  X: 4348 baris | total USD 190,031,839,234 | kontrol USD 190,031,839,234 | cakupan 100.000%
+  bab yang masih < 99,9%: TIDAK ADA
+
+[2/4] Panen arus M
+    M   200/5206  terkumpul 83
+    M   400/5206  terkumpul 212
+    M   600/5206  terkumpul 390
+    M   800/5206  terkumpul 561
+    M  1000/5206  terkumpul 749
+    M  1200/5206  terkumpul 944
+    M  1400/5206  terkumpul 1139
+    M  1600/5206  terkumpul 1322
+    M  1800/5206  terkumpul 1519
+    M  2000/5206  terkumpul 1713
+    M  2200/5206  terkumpul 1907
+    M  2400/5206  terkumpul 2101
+    M  2600/5206  terkumpul 2287
+    M  2800/5206  terkumpul 2487
+    M  3000/5206  terkumpul 2686
+    M  3200/5206  terkumpul 2884
+    M  3400/5206  terkumpul 3072
+    M  3600/5206  terkumpul 3272
+    M  3800/5206  terkumpul 3468
+    M  4000/5206  terkumpul 3653
+    M  4200/5206  terkumpul 3853
+    M  4400/5206  terkumpul 4053
+    M  4600/5206  terkumpul 4253
+    M  4800/5206  terkumpul 4450
+    M  5000/5206  terkumpul 4648
+    M  5200/5206  terkumpul 4843
+    M  5206/5206  terkumpul 4848
+  M: 4848 baris | total USD 191,690,908,079 | kontrol USD 191,690,908,079 | cakupan 100.000%
+  bab yang masih < 99,9%: TIDAK ADA
+
+[3/4] Konkordans HS2012 -> CPC 2.1 -> ISIC Rev.4
+  konkordans: 5205 pasangan HS6 -> ISIC Rev.4
+
+[4/4] Agregasi ke ISIC Rev.4
+  agregasi: 179 industri ISIC Rev.4, 124 di antaranya manufaktur (10-33)
