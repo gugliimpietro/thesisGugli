@@ -1,0 +1,94 @@
+Berkas ditemukan: 10
+
+=== indus00.csv  (tahun 2000, 20789 perusahaan, klasifikasi KLUI) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 20789, tidak 0
+  domestik + impor = total bahan -> cocok 20789, tidak 0
+  TK produksi + TK lainnya = TK total: kolom tidak lengkap, dilewati
+  ekspor: PRPREX00% x output (3459 perusahaan, median intensitas 0.950)
+  -> 342 industri | upah>0 pada 335 | ekspor>0 pada 270 | modal>0 pada 290
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2000_ISIC5.csv
+
+=== indus01.csv  (tahun 2001, 20059 perusahaan, klasifikasi KLUI) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 20059, tidak 0
+  domestik + impor = total bahan -> cocok 20059, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 20058, tidak 1   <-- PERIKSA
+  ekspor: TIDAK ADA kolom ekspor yang bisa dipakai
+  -> 304 industri | upah>0 pada 304 | ekspor>0 pada 0 | modal>0 pada 268
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2001_ISIC5.csv
+
+=== indus03.csv  (tahun 2003, 19054 perusahaan, klasifikasi KLUI) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 19054, tidak 0
+  domestik + impor = total bahan -> cocok 19054, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 19054, tidak 0
+  ekspor: PRPREX03% x output (2695 perusahaan, median intensitas 0.870)
+  -> 294 industri | upah>0 pada 294 | ekspor>0 pada 220 | modal>0 pada 267
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2003_ISIC5.csv
+
+=== indus05.csv  (tahun 2005, 19434 perusahaan, klasifikasi KLUI) ===
+  variabel TIDAK ADA di berkas ini: upah_produksi, upah_lainnya, nilai_tambah, modal
+  OUTPUT - IINPUT = VTLVCU: kolom tidak lengkap, dilewati
+  domestik + impor = total bahan -> cocok 19434, tidak 0
+  TK produksi + TK lainnya = TK total: kolom tidak lengkap, dilewati
+  ekspor: PRPREX05% x output (3303 perusahaan, median intensitas 0.900)
+  -> 293 industri | upah>0 pada 0 | ekspor>0 pada 239 | modal>0 pada 0
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2005_ISIC5.csv
+
+=== indus06.csv  (tahun 2006, 27627 perusahaan, klasifikasi Rev3) ===
+  variabel TIDAK ADA di berkas ini: upah_produksi, upah_lainnya, tk_total, modal
+  OUTPUT - IINPUT = VTLVCU -> cocok 27627, tidak 0
+  domestik + impor = total bahan: kolom tidak lengkap, dilewati
+  TK produksi + TK lainnya = TK total: kolom tidak lengkap, dilewati
+  ekspor: PRPREX06% x output (4881 perusahaan, median intensitas 0.900)
+  -> 344 industri | upah>0 pada 0 | ekspor>0 pada 290 | modal>0 pada 0
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2006_ISIC5.csv
+
+=== indus07.csv  (tahun 2007, 26249 perusahaan, klasifikasi Rev3) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 26249, tidak 0
+  domestik + impor = total bahan -> cocok 26249, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 26249, tidak 0
+  ekspor: PRPREX07% x output (2095 perusahaan, median intensitas 0.900)
+  -> 374 industri | upah>0 pada 374 | ekspor>0 pada 239 | modal>0 pada 331
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2007_ISIC5.csv
+
+=== indus09.csv  (tahun 2009, 22939 perusahaan, klasifikasi Rev3) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 22939, tidak 0
+  domestik + impor = total bahan -> cocok 22939, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 22939, tidak 0
+  ekspor: Prprex09% x output (3100 perusahaan, median intensitas 0.723)
+  -> 348 industri | upah>0 pada 348 | ekspor>0 pada 261 | modal>0 pada 322
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2009_ISIC5.csv
+
+=== indus10.csv  (tahun 2010, 21886 perusahaan, klasifikasi Rev3) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 21886, tidak 0
+  domestik + impor = total bahan -> cocok 21886, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 21886, tidak 0
+  ekspor: PRPREX10% x output (3019 perusahaan, median intensitas 0.800)
+  -> 354 industri | upah>0 pada 354 | ekspor>0 pada 272 | modal>0 pada 321
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI2010_ISIC5.csv
+
+=== indus91.csv  (tahun 1991, 15464 perusahaan, klasifikasi KLUI) ===
+  variabel TIDAK ADA di berkas ini: upah_produksi, upah_lainnya, nilai_tambah, modal
+  OUTPUT - IINPUT = VTLVCU: kolom tidak lengkap, dilewati
+  domestik + impor = total bahan -> cocok 15464, tidak 0
+  TK produksi + TK lainnya = TK total -> cocok 11972, tidak 3492   <-- PERIKSA
+  ekspor: TIDAK ADA kolom ekspor yang bisa dipakai
+  -> 286 industri | upah>0 pada 0 | ekspor>0 pada 0 | modal>0 pada 0
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI1991_ISIC5.csv
+
+=== indus98.csv  (tahun 1998, 20084 perusahaan, klasifikasi KLUI) ===
+  OUTPUT - IINPUT = VTLVCU -> cocok 20084, tidak 0
+  domestik + impor = total bahan -> cocok 20084, tidak 0
+  TK produksi + TK lainnya = TK total: kolom tidak lengkap, dilewati
+  ekspor: PRPREX98% x output (464 perusahaan, median intensitas 1.005)
+  -> 341 industri | upah>0 pada 333 | ekspor>0 pada 145 | modal>0 pada 309
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\SI1998_ISIC5.csv
+
+PANEL KBLI 2005 / ISIC Rev.3 (2006 ke atas): 1420 baris | 386 industri | tahun [2006, 2007, 2009, 2010]
+  industri lengkap di semua tahun: 337
+  baris dengan upah > 0: 1076
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\panel_rev3_ISIC5.csv
+
+PANEL KLUI lama / ISIC Rev.2 (2005 ke bawah): 1860 baris | 664 industri | tahun [1991, 1998, 2000, 2001, 2003, 2005]
+  industri lengkap di semua tahun: 10
+  baris dengan upah > 0: 1266
+  -> D:\kuliah s2\1. tesis\thesisGugli\data\panel_klui_ISIC5.csv
